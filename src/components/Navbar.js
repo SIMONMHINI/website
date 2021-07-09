@@ -40,12 +40,13 @@ import { Button } from './Button';
                         </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/service' className="nav-links" onClick={closeMobileMenu}>
+                            <Link
+                                to='/services' className="nav-links" onClick={closeMobileMenu}>
                                 Service
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/product' className="nav-links" onClick={closeMobileMenu}>
+                            <Link to='/products' className="nav-links" onClick={closeMobileMenu}>
                                 Product
                             </Link>
                         </li>
